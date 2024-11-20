@@ -1,0 +1,200 @@
+/* body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .cta {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-pricing {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .book-online {
+    background-color: skyblue;
+    color: white;
+  }
+  
+  .call-us {
+    background-color: white;
+    color: skyblue;
+  }
+  
+  .social {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    fill: skyblue;
+  } */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar*/
+
+.navbar {
+    height: max-content;
+    background-color: #222222;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-booknow-button {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+    width: auto;
+    border-radius: 30px;
+}
+
+.navbar-booknow-button:hover {
+    background-color: #007bffcb;
+    color: rgba(255, 255, 255, 0.767);
+    width: auto;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+    transition: ease-in-out;
+}
+
+.Explore-now-btn:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Header */
+@media (max-width:767px) {
+
+    .carousel-caption {
+        text-align: start;
+    }
+
+    .carousel-caption h1 {
+        font-size: 18px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 15px;
+    }
+}
+
+/* Header */
+
+
+/* Footer */
+.footer {
+    color: white;
+    background-color: #222222;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: max-content;
+    line-height: 1.9;
+    font-size: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-email-bar {
+    height: 55px;
+    color: #a9aeb3;
+    border-radius: 0;
+    box-shadow: none;
+    background: #2a2e2f;
+}
+
+.footer-heading {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.footer-button {
+    background-color: #222222;
+    color: white;
+    border-color: white;
+    padding: 15px 35px;
+    border-radius: 0px;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.footer-button:hover {
+    background-color: white;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.copyright {
+    margin-top: 50px;
+    padding-top: 30px;
+    color: #999;
+    border-top: 1px solid rgba(221, 221, 221, 0.1);
+    text-align: center;
+}
+
+.list-unstyled li:hover {
+    margin-left: 2px;
+    text-decoration: underline;
+
+}
+
+.list-unstyled li .twiter:hover {
+    color: rgb(73, 113, 232);
+}
+
+.list-unstyled li .utube:hover {
+    color: red;
+}
+
+.list-unstyled li .insta:hover {
+    color: rgb(184, 31, 118);
+}
+
+.list-unstyled li .fb:hover {
+    color: rgb(73, 113, 232);
+}
+
+.list-unstyled .behance:hover {
+    color: yellow;
+}
+
+/* Footer */
